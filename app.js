@@ -14,7 +14,7 @@ var schema = buildSchema(`
 // The root provides a resolver function for each API endpoint
 var root = {
   hello: () => {
-    return 'Helllo!';
+    return 'Another shitty test';
   },
   date: () =>{
       let date = new Date();
